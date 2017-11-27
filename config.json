@@ -1,0 +1,130 @@
+{
+	"devices": {
+		"audioKeuken": {
+			"protocol": [ "kaku_switch" ],
+			"id": [{
+				"id": 3251954,
+				"unit": 1
+			}],
+			"state": "off"
+		},
+		"keukenWandLamp": {
+			"protocol": [ "kaku_dimmer" ],
+			"id": [{
+				"id": 3251954,
+				"unit": 4
+			}],
+			"state": "off",
+			"dimlevel": 10
+		},
+		"tv": {
+			"protocol": [ "kaku_switch" ],
+			"id": [{
+				"id": 3251954,
+				"unit": 2
+			}],
+			"state": "on"
+		},
+		"audio": {
+			"protocol": [ "kaku_switch" ],
+			"id": [{
+				"id": 3251954,
+				"unit": 3
+			}],
+			"state": "on"
+		},
+		"halPIR": {
+			"protocol": [ "kaku_switch" ],
+			"id": [{
+				"id": 616784,
+				"unit": 9
+			}],
+			"state": "off"
+		},
+		"toio": {
+			"protocol": [ "kaku_switch" ],
+			"id": [{
+				"id": 3251954,
+				"unit": 5
+			}],
+			"state": "on"
+		},
+		"deurbel": {
+			"protocol": [ "kaku_switch" ],
+			"id": [{
+				"id": 21084822,
+				"unit": 1
+			}],
+			"state": "on"
+		}
+	},
+	"rules": {},
+	"gui": {
+		"audioKeuken": {
+			"name": "audioKeuken",
+			"group": [ "keuken" ],
+			"media": [ "all" ],
+			"readonly": 0
+		},
+		"tv": {
+			"name": "tv",
+			"group": [ "living" ],
+			"media": [ "all" ],
+			"readonly": 0
+		},
+		"audio": {
+			"name": "audio",
+			"group": [ "living" ],
+			"media": [ "all" ],
+			"readonly": 0
+		},
+		"keukenWandLamp": {
+			"name": "keukenWandLamp",
+			"group": [ "keuken" ],
+			"media": [ "all" ],
+			"readonly": 0
+		},
+		"halPIR": {
+			"name": "halPIR",
+			"group": [ "hal" ],
+			"media": [ "all" ],
+			"readonly": 0
+		},
+		"toio": {
+			"name": "toio",
+			"group": [ "living" ],
+			"media": [ "all" ],
+			"readonly": 0
+		},
+		"deurbel": {
+			"name": "deurbel",
+			"group": [ "hal" ],
+			"media": [ "all" ],
+			"readonly": 0
+		}
+	},
+	"settings": {
+		"port": 5000,
+		"log-level": 6,
+		"pid-file": "/var/run/pilight.pid",
+		"log-file": "/var/log/pilight.log",
+		"webserver-enable": 1,
+		"webserver-root": "/usr/local/share/pilight/webgui",
+		"webserver-http-port": 5001,
+		"webserver-cache": 1,
+		"gpio-platform": "raspberrypi3"
+	},
+	"hardware": {
+		"433gpio": {
+			"sender": 0,
+			"receiver": 1
+		}
+	},
+	"registry": {
+		"pilight": {
+			"version": {
+				"current": "8.0.2"
+			}
+		}
+	}
+}
