@@ -23,7 +23,7 @@
 				"id": 3251954,
 				"unit": 2
 			}],
-			"state": "on"
+			"state": "off"
 		},
 		"audio": {
 			"protocol": [ "kaku_switch" ],
@@ -31,7 +31,7 @@
 				"id": 3251954,
 				"unit": 3
 			}],
-			"state": "on"
+			"state": "off"
 		},
 		"halPIR": {
 			"protocol": [ "kaku_switch" ],
@@ -47,7 +47,7 @@
 				"id": 3251954,
 				"unit": 5
 			}],
-			"state": "on"
+			"state": "off"
 		},
 		"deurbel": {
 			"protocol": [ "kaku_switch" ],
@@ -55,7 +55,33 @@
 				"id": 21084822,
 				"unit": 1
 			}],
+			"state": "off"
+		},
+		"kerstster": {
+			"protocol": [ "kaku_dimmer" ],
+			"id": [{
+				"id": 21081225,
+				"unit": 1
+			}],
+			"state": "off",
+			"dimlevel": 15
+		},
+		"kerstboom": {
+			"protocol": [ "kaku_switch" ],
+			"id": [{
+				"id": 21081225,
+				"unit": 2
+			}],
 			"state": "on"
+		},
+		"kerstboom_hal": {
+			"protocol": [ "kaku_dimmer" ],
+			"id": [{
+				"id": 21081225,
+				"unit": 3
+			}],
+			"state": "off",
+			"dimlevel": 10
 		}
 	},
 	"rules": {},
@@ -98,6 +124,24 @@
 		},
 		"deurbel": {
 			"name": "deurbel",
+			"group": [ "hal" ],
+			"media": [ "all" ],
+			"readonly": 0
+		},
+		"kerstster": {
+			"name": "kerstster",
+			"group": [ "living" ],
+			"media": [ "all" ],
+			"readonly": 0
+		},
+		"kerstboom": {
+			"name": "kerstboom",
+			"group": [ "living" ],
+			"media": [ "all" ],
+			"readonly": 0
+		},
+		"kerstboom_hal": {
+			"name": "kerstboom_hal",
 			"group": [ "hal" ],
 			"media": [ "all" ],
 			"readonly": 0
