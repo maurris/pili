@@ -6,7 +6,7 @@
 				"id": 3251954,
 				"unit": 1
 			}],
-			"state": "off"
+			"state": "on"
 		},
 		"keukenWandLamp": {
 			"protocol": [ "kaku_dimmer" ],
@@ -14,8 +14,8 @@
 				"id": 3251954,
 				"unit": 4
 			}],
-			"state": "off",
-			"dimlevel": 10
+			"state": "on",
+			"dimlevel": 6
 		},
 		"tv": {
 			"protocol": [ "kaku_switch" ],
@@ -47,7 +47,7 @@
 				"id": 3251954,
 				"unit": 5
 			}],
-			"state": "off"
+			"state": "on"
 		},
 		"deurbel": {
 			"protocol": [ "kaku_switch" ],
@@ -55,7 +55,7 @@
 				"id": 21084822,
 				"unit": 1
 			}],
-			"state": "off"
+			"state": "on"
 		},
 		"kerstster": {
 			"protocol": [ "kaku_dimmer" ],
