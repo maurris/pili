@@ -11,8 +11,8 @@
 		"keukenWandLamp": {
 			"protocol": [ "kaku_dimmer" ],
 			"id": [{
-				"id": 3251954,
-				"unit": 4
+				"id": 9453334,
+				"unit": 10
 			}],
 			"state": "on",
 			"dimlevel": 6
